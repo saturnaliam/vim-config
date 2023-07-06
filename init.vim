@@ -28,3 +28,13 @@ endif
 
 let g:airline_theme='bubblegum'
 colorscheme pink-moon " i would give my LIFE for this colorscheme
+
+inoremap <silent><expr> <CR> coc#pum#visible() ? coc#pum#confirm(): "\<CR>"
+nnoremap <C-f> :NERDTreeFocus<CR>
+nnoremap <C-n> :NERDTree<CR>
+nnoremap <C-t> :NERDTreeToggle<CR>
+nnoremap <C-w> :tabnew<CR>
+nnoremap <C-Right> :tabn<CR>
+nnoremap <C-Left> :tabp<CR>
+nnoremap <C-s> :q<CR>
+nnoremap <C-a> :only<CR>
